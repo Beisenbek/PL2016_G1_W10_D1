@@ -33,7 +33,7 @@ int main(){
 	for(int i = 0; i < n; ++i){
 		student t;
 		cin >> t.sname >> t.name >> t.a >> t.b >> t.c;
-		t.avg = (t.a + t.b + t.c)/3.0;
+		t.avg = (t.a + t.b + t.c)/3.0   ;
 		v.push_back(t);
 	}
 
